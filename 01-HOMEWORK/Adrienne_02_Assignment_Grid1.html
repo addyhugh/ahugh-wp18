@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <title>abstract grid</title>
+    <style>
+      body{
+      background: repeating-radial-gradient(#66ffcc, #ff9900 10%);}
+
+      section{
+        width: 100vw;
+        height: 100vh;
+
+        display:grid;
+        grid-template-columns: repeat(20,1fr);
+        grid-template-rows: repeat(20,1fr);
+        grid-gap: 0px;
+        }
+
+      .box1{
+        display:grid;
+        justify-content: space-between;
+
+        grid-column: 4/20;
+        grid-row: 1/20;
+        z-index:100;
+        background:transparent;
+      }
+
+      .box2{
+        display:grid;
+        align-content: space-around;
+        justify-content: space-between;
+
+        grid-column: 6/20;
+        grid-row: 4/20;
+        z-index:100;
+        background:transparent;
+      }
+
+      .box3{
+        display:grid;
+        justify-content: space-between;
+
+        grid-column: 8/20;
+        grid-row: 10/20;
+        z-index:100;
+        background:transparent;
+      }
+
+      .box4{
+        display:grid;
+        align-content: space-around;
+        justify-content: space-between;
+
+        grid-column: 7/20;
+        grid-row: 15/20;
+        z-index:100;
+        background:transparent;
+      }
+
+      .circle{
+        height:300px;
+        width:300px;
+        border-radius: 100%;
+        grid-row:10/20;
+        grid-column:7/20;
+        background: linear-gradient(rgba(204,255,255,.9),rgba(255,240,255,.9));
+      }
+
+      .circle2{
+        height:400px;
+        width:400px;
+        border-radius: 100%;
+        grid-row:5/20;
+        grid-column:10/20;
+        background: linear-gradient(rgba(234,255,255,.8),rgba(200,255,255,.8));
+      }
+
+      .smallcircle{
+        height:20px;
+        width:20px;
+        background:rgba(255, 255, 153,0.8);
+        border-radius:100%;
+      }
+      .smallcircle2{
+        height:15px;
+        width:15px;
+        background:rgba(255, 200, 140,0.9);
+        border-radius:100%;
+      }
+      .mediumcircle{
+        height:50px;
+        width:50px;
+        background: linear-gradient(rgba(234,255,255,.8),rgba(255, 200, 140,0.9));
+        border-radius:100%;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <div class="box1">
+        <div class="mediumcircle"></div>
+        <div class="mediumcircle"></div>
+        <div class="mediumcircle"></div>
+        <div class="mediumcircle"></div>
+        <div class="mediumcircle"></div>
+        <div class="mediumcircle"></div>
+        <div class="mediumcircle"></div>
+
+        <div class="mediumcircle"></div>
+
+
+        </div>
+
+        <div class="box2">
+            <div class="smallcircle"></div>
+            <div class="smallcircle2"></div>
+            <div class="smallcircle"></div>
+            <div class="smallcircle2"></div>
+            <div class="smallcircle"></div>
+            <div class="smallcircle2"></div>
+            <div class="smallcircle"></div>
+            <div class="smallcircle2"></div>
+            <div class="smallcircle"></div>
+
+          </div>
+
+          <div class="box3">
+              <div class="smallcircle"></div>
+              <div class="smallcircle"></div>
+              <div class="smallcircle"></div>
+              <div class="smallcircle"></div>
+              <div class="smallcircle"></div>
+              <div class="smallcircle"></div>
+              <div class="smallcircle"></div>
+              <div class="smallcircle"></div>
+              <div class="smallcircle"></div>
+              <div class="smallcircle"></div>
+              <div class="smallcircle"></div>
+
+            </div>
+
+            <div class="box4">
+                <div class="smallcircle2"></div>
+                <div class="smallcircle2"></div>
+                <div class="smallcircle2"></div>
+                <div class="smallcircle2"></div>
+                <div class="smallcircle2"></div>
+                <div class="smallcircle2"></div>
+                <div class="smallcircle2"></div>
+
+              </div>
+
+      <div class="circle"></div>
+      <div class="circle2"></div>
+    </section>
+
+
+
+  </body>
+
+
+
+
+
+</html>
