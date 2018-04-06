@@ -1,6 +1,8 @@
 # ahugh-wp18
-
+------------
+------------
 WEEK 1 ASSIGNMENTS
+------------------
 
 https://addyhugh.github.io/ahugh-wp18/01-HOMEWORK/Adrienne_01_Objects_DongleCord.html
 
@@ -15,6 +17,7 @@ https://addyhugh.github.io/ahugh-wp18/01-HOMEWORK/Adrienne_01_Objects_TinyPot.ht
 
 
 WEEK 2 ASSIGNMENTS
+------------------
 
 https://addyhugh.github.io/ahugh-wp18/01-HOMEWORK/Adrienne_02_Assignment_Grid1.html
 
