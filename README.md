@@ -2,6 +2,9 @@
 
 WEEK 1 ASSIGNMENTS
 ------------------
++ https://addyhugh.github.io/ahugh-wp18/01-HOMEWORK/Adrienne_01_02_flag3.html
+
++ https://addyhugh.github.io/ahugh-wp18/01-HOMEWORK/Adrienne_01_02_flag.html
 
 + https://addyhugh.github.io/ahugh-wp18/01-HOMEWORK/Adrienne_01_Objects_DongleCord.html
 
