@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <style>
+
+    div{
+      transition: 1s all;
+    }
+
+    .circle{
+      height:300px;
+      width:300px;
+      border-radius: 100%;
+      background:red;
+      z-index:500
+      }
+
+    .mediumcircle{
+        height:50px;
+        width:50px;
+        background: linear-gradient(rgba(234,255,255,.8),rgba(255, 200, 140,0.9));
+        border-radius:100%;
+        z-index:1000
+      }
+
+    div:hover{
+      transform: scale(1.5);
+      }
+
+
+    @media (min-width:600px){
+        body{
+          background:repeating-radial-gradient(rgba(234,255,255,.8),rgba(200,255,255,.8) 20%);
+
+          font-size: 50px;
+          font-weight: bolder;
+          font-stretch: ultra-expanded;
+          font-style: oblique;
+        }}
+    @media (max-height:600px){
+        body{
+          background:repeating-radial-gradient(rgba(234,255,255,.8),rgba(200,255,255,.8) 20%);
+
+          font-size: 100px;
+          font-weight: bolder;
+          font-stretch: ultra-expanded;
+          font-style: oblique;
+          }}
+    </style>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class"circle"></div>
+    <div class"mediumcircle"></div>
+
+    <p>what</p>
+    <p>is</p>
+    <p>happening</p>
+
+
+
+  </body>
+</html>
