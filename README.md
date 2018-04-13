@@ -35,4 +35,5 @@ CLASSWORK
 
 WEEK 3 ASSIGNMENTS
 ------------------
+click on things & change the browser size
 + https://addyhugh.github.io/ahugh-wp18/01-HOMEWORK/Adrienne_03_animation3.html
