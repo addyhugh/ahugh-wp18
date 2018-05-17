@@ -43,4 +43,3 @@ click on things & change the browser size
 WEEK 4 ASSIGNMENTS
 ------------------
 + https://addyhugh.github.io/ahugh-wp18/01-HOMEWORK/AdrienneHugh-Final.html
-+ https://addyhugh.github.io/ahugh-webfinal/ahugh-wp18/01-HOMEWORK/AdrienneHugh-Final.html
